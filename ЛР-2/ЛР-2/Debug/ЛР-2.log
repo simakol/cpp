@@ -1,0 +1,7 @@
+﻿  ЛР-2.cpp
+C:\Users\Alex_Simak\Desktop\ЛР-2\ЛР-2\ЛР-2.cpp(34,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex_Simak\Desktop\ЛР-2\ЛР-2\ЛР-2.cpp(38,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex_Simak\Desktop\ЛР-2\ЛР-2\ЛР-2.cpp(118,21): warning C4244: '/=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex_Simak\Desktop\ЛР-2\ЛР-2\ЛР-2.cpp(122,21): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex_Simak\Desktop\ЛР-2\ЛР-2\ЛР-2.cpp(51,9): warning C4101: 'result': unreferenced local variable
+  ЛР-2.vcxproj -> C:\Users\Alex_Simak\Desktop\ЛР-2\Debug\ЛР-2.exe

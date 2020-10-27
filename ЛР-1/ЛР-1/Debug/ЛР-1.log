@@ -1,0 +1,5 @@
+﻿  ЛР-1.cpp
+C:\Users\Alex_Simak\Desktop\ЛР-1\ЛР-1\ЛР-1.cpp(31,79): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex_Simak\Desktop\ЛР-1\ЛР-1\ЛР-1.cpp(44,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex_Simak\Desktop\ЛР-1\ЛР-1\ЛР-1.cpp(45,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  ЛР-1.vcxproj -> C:\Users\Alex_Simak\Desktop\ЛР-1\Debug\ЛР-1.exe
