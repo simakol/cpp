@@ -14,15 +14,25 @@ int main()
 	cin >> taskN;
 
 	switch (taskN) {
-	case 1: {//TODO: ДОДЕЛАТЬ!!
-		int K, N, quotient, remainder;
+	case 1: {
+		int K, N, quotient = 0, remainder, dividend;
 		cout << "Enter N and K(N/K): " << endl;
 		cin >> N >> K;
-		quotient = N;
+		remainder = N;
+
 		do {
-			quotient -= K; // %
-		} while (quotient >= K);
-		cout << "N % K = " << quotient << endl;
+			remainder -= K;
+		} while (remainder >= K);
+
+		dividend = N - remainder;
+		while (dividend != 0) {
+			dividend -= K;
+			quotient++;
+		}
+
+		cout << "N % K = " << remainder << endl;
+		cout << "quotient = " << quotient << endl;
+
 		break;
 	}
 	case 2: {
@@ -59,6 +69,33 @@ int main()
 		}
 		cout << "Max divisor(k) = " << k << endl;
 		cout << "Sum = " << sum << endl;
+		break;
+	}
+	case 4: {
+
+		break;
+	}
+	case 5: {
+		int N, prev = 0, next = 1;
+		cout << "Enter N (N > 1): " << endl;
+		cin >> N;
+
+		if (N <= 1) {
+			cout << "Incorrect data!" << endl;
+			return 0;
+		}
+
+		int currentF; // для своей последовательности фибоначчи
+		do {
+			currentF = prev + next;
+			prev = next;
+			next = currentF;
+			if (currentF == N) {
+				next += prev;
+			}
+		} while (currentF != N);
+
+		cout << "prev = " << prev << endl << "next = " << next << endl;
 		break;
 	}
 	default:
