@@ -1,0 +1,10 @@
+﻿  ИНД-1.cpp
+C:\Documents\Универ\АИП\cpp\ИНД-1\ИНД-1\ИНД-1.cpp(13,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Documents\Универ\АИП\cpp\ИНД-1\ИНД-1\ИНД-1.cpp(14,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Documents\Универ\АИП\cpp\ИНД-1\ИНД-1\ИНД-1.cpp(46,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Documents\Универ\АИП\cpp\ИНД-1\ИНД-1\ИНД-1.cpp(46,33): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Documents\Универ\АИП\cpp\ИНД-1\ИНД-1\ИНД-1.cpp(56,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Documents\Универ\АИП\cpp\ИНД-1\ИНД-1\ИНД-1.cpp(57,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Documents\Универ\АИП\cpp\ИНД-1\ИНД-1\ИНД-1.cpp(58,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Documents\Универ\АИП\cpp\ИНД-1\ИНД-1\ИНД-1.cpp(59,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  ИНД-1.vcxproj -> C:\Documents\Универ\АИП\cpp\ИНД-1\Debug\ИНД-1.exe
