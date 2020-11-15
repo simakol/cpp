@@ -1,0 +1,4 @@
+SDFSDFDS
+subintegral function: y = (x^2 - 1)3x
+interval: [ 1, 9 ]
+The exact value of the integral on the interval: 4799.65

@@ -1,0 +1,3 @@
+subintegral function: y = (x^2 - 1)3x
+interval: [ 2, 5 ]
+The exact value of the integral on the interval: 425.371

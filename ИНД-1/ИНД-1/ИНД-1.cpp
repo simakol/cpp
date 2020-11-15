@@ -19,10 +19,9 @@ int tableOutput(int a, int b, float res, float n) {
 }
 
 
-// Метод левых треугольников
 int main()
 {
-	ofstream fout("outSimak.txt");
+	ofstream fout("C:\\Documents\\Универ\\АИП\\cpp\\ИНД-1\\outSimak.txt");
 
 	if (!fout) {
 		cout << "File for writing isn't open! \n";
