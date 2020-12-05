@@ -1,0 +1,4 @@
+﻿  ЛР-5.cpp
+C:\Documents\Универ\АИП\cpp\ЛР-5\ЛР-5\ЛР-5.cpp(28,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Documents\Универ\АИП\cpp\ЛР-5\ЛР-5\ЛР-5.cpp(73,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  ЛР-5.vcxproj -> C:\Documents\Универ\АИП\cpp\ЛР-5\Debug\ЛР-5.exe

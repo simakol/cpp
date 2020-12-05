@@ -85,6 +85,7 @@ int main()
 
 		break;
 	}
+
 	case 4: {
 		int N, k = -1;
 		float x;

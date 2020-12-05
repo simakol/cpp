@@ -1,4 +1,3 @@
-SDFSDFDS
 subintegral function: y = (x^2 - 1)3x
-interval: [ 5, 25 ]
-The exact value of the integral on the interval: 291498
+interval: [ 2, 9 ]
+The exact value of the integral on the interval: 4793.97
