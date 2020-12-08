@@ -36,12 +36,31 @@ bool isSquare(int K) {
 	return isSquare;
 }
 
+void addLeftDigit(int D, int* K) { //змінні покажчики
+	int temp = 10;
+	while (*K > temp) temp *= 10;
+	*K += D * temp;
+}
+
+void shiftLeft3(float& a, float& b, float& c) {
+	float temp = a;
+	a = c;
+	c = b;
+	b = temp;
+}
+
+
+
 //int main()
 //{
-//	float num;
-//	cout << "Enter number please" << endl;
-//	cin >> num;
-//	isSquare(num);
+//	for (int i = 1; i <= 2; i++)
+//	{
+//		float a, b, c;
+//		cout << "Enter A, B and C: " << endl;
+//		cin >> a >> b >> c;
+//		shiftLeft3(a, b, c);
+//		cout << a << endl << b << endl << c << endl;
+//	}
 //
 //	return 0;
 //}
@@ -72,6 +91,37 @@ int main()
 		cin >> num;
 		isSquare(num);
 
+		break;
+	}
+	case 3: {
+		int k;
+		cout << "Enter k: " << endl;
+		cin >> k;
+
+		for (int i = 1; i <= 2; i++) {
+			int d;
+			cout << "Enter d: " << endl;
+			cin >> d;
+
+			addLeftDigit(d, &k);
+			cout << k << endl;
+
+		}
+		break;
+	}
+	case 4: {
+		for (int i = 1; i <= 2; i++)
+		{
+			float a, b, c;
+			cout << "Enter A, B and C: " << endl;
+			cin >> a >> b >> c;
+			shiftLeft3(a, b, c);
+			cout << a << endl << b << endl << c << endl;
+		}
+		break;
+	}
+	case 5: {
+		
 		break;
 	}
 	default:
