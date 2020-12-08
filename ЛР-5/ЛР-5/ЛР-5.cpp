@@ -49,21 +49,26 @@ void shiftLeft3(float& a, float& b, float& c) {
 	b = temp;
 }
 
-
-
-//int main()
-//{
-//	for (int i = 1; i <= 2; i++)
-//	{
-//		float a, b, c;
-//		cout << "Enter A, B and C: " << endl;
-//		cin >> a >> b >> c;
-//		shiftLeft3(a, b, c);
-//		cout << a << endl << b << endl << c << endl;
-//	}
-//
-//	return 0;
+// приклади перевантаження
+//int sumOfSquare(int a, int b) {//перевантаження для цілочисельного типу
+//	return a * a + b * b;
 //}
+//
+//long sumOfSquare(long a, long b) {//перевантаження для типу long
+//	return a * a + b * b;
+//}
+//
+//float sumOfSquare(float a, float b = 5.5) {//перевантаження для типу float + параметри за замовчуванням
+//	return a * a + b * b;
+//}
+
+// шаблон функції
+template <typename T>
+const T& sumOfSquare(const T& a, const T& b)
+{
+	return a * a + b * b;
+}
+
 
 int main()
 {
@@ -121,7 +126,10 @@ int main()
 		break;
 	}
 	case 5: {
-		
+		int a, b;
+		cout << "Enter a and b: " << endl;
+		cin >> a >> b;
+		cout << sumOfSquare(a, b) << endl;
 		break;
 	}
 	default:
