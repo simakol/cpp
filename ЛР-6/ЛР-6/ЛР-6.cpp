@@ -18,11 +18,7 @@ int main()
 
 
 		for (int i = 0; i < N; i++) {
-			int el;
-			for (int k = 1; k <= (i + 1) * 2; k += 2) {
-				el = k;
-			}
-			arr[i] = el;
+			arr[i] = 2 * i + 1;
 			cout << i << ": " << arr[i] << endl;
 		}
 		cout << endl;
@@ -94,7 +90,7 @@ int main()
 		//порядку їх зростання.
 
 		const int N = 10;
-		int arr[N] = { 5, 8, 1, 5, 9, 2, 7, 12, 4, 88 }; //1, 4, 7
+		int arr[N] = { 5, 8, 1, 5, 9, 2, 7, 12, 4, 3 };
 
 
 		for (int i = 0; i < N; i++) {
@@ -103,8 +99,8 @@ int main()
 
 		cout << endl;
 
-		for (int i = 0; i < N; i++) {
-			if (i + 1 < N && arr[i] > arr[i + 1])	cout << i << ": " << arr[i] << endl;
+		for (int i = 0; i < N - 1; i++) {
+			if (arr[i] > arr[i + 1])	cout << i << ": " << arr[i] << endl;
 		}
 
 
