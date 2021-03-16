@@ -146,13 +146,13 @@ int main()
 	}
 	case 5: {
 		//5. Дана цілочисельна матриця розміру MхN. Знайти кількість її стовпців, всi елементи яких різні.
-		const int ROWS = 5, COLS = 5;
+		/*const int ROWS = 5, COLS = 5;
 		int arr[ROWS][COLS] = {
-				{2,5,25,3,3},
-				{2,55,36,3,-2},
-				{2,5,-4,3,2},
-				{2,5,250,3,32},
-				{2,5,84,3,154},
+				{2,5, 25, 3,3},
+				{2,55, 35,3,-2},
+				{2,5, -4, 3,2},
+				{2,5, 25,3,32},
+				{2,5, 84, 3,154},
 		}, allColsCounter = 0;
 
 		for (int i = 0; i < ROWS; i++)
@@ -170,12 +170,40 @@ int main()
 				}
 
 			}
-			if (counterColItem == COLS) {
+			if (counterColItem > 1) {
 				allColsCounter++;
 			}
 			cout << endl;
 		}
-		cout << "Diff cols counter = " << COLS - allColsCounter << endl;
+		cout << "Diff cols counter = " << allColsCounter << endl;
+		break;*/
+		const int ROWS = 5, COLS = 5;
+		int arr[ROWS][COLS] = {
+				{2, 5,  25, 5, 3},
+				{2, 52, 35, 3, -2},
+				{2, 5,  -4, 3, 2},
+				{2, 5,  25, 3, 32},
+				{2, 5,  84, 3, 154},
+		}, allColsCounter = ROWS;
+
+		for (int i = 0; i < ROWS; i++)
+		{
+
+			for (int j = 0; j < COLS; j++)
+			{
+				//int startElem = arr[j][j];
+				//cout.width(4);
+				//cout << arr[i][j] << " | ";
+
+				if (arr[j][j] == arr[j + 1][i]) {
+					allColsCounter--;
+					break;
+				}
+
+			}
+			//cout << endl;
+		}
+		cout << "Diff cols counter = " << allColsCounter << endl;
 		break;
 	}
 	default: {
@@ -184,5 +212,3 @@ int main()
 	}
 	return 0;
 }
-
-
